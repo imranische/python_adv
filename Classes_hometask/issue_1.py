@@ -67,7 +67,6 @@ class Advert(Dict2Obj):
         """
         защищённое обновление 'price'
         """
-        # raise AttributeError('Изменение цены невозможно')
         if price >= 0:
             self._price = price
         else:
